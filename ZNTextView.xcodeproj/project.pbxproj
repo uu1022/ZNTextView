@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6A9B0F52488FCE0006B0C38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B0F42488FCE0006B0C38 /* AppDelegate.m */; };
+		F6A9B0F82488FCE0006B0C38 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B0F72488FCE0006B0C38 /* SceneDelegate.m */; };
+		F6A9B0FB2488FCE0006B0C38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B0FA2488FCE0006B0C38 /* ViewController.m */; };
+		F6A9B0FE2488FCE0006B0C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A9B0FC2488FCE0006B0C38 /* Main.storyboard */; };
+		F6A9B1002488FCE1006B0C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A9B0FF2488FCE1006B0C38 /* Assets.xcassets */; };
+		F6A9B1032488FCE1006B0C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A9B1012488FCE1006B0C38 /* LaunchScreen.storyboard */; };
+		F6A9B1062488FCE1006B0C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B1052488FCE1006B0C38 /* main.m */; };
+		F6A9B1102488FCE2006B0C38 /* ZNTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B10F2488FCE2006B0C38 /* ZNTextViewTests.m */; };
+		F6A9B11B2488FCE2006B0C38 /* ZNTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B11A2488FCE2006B0C38 /* ZNTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6A9B10C2488FCE2006B0C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A9B0E82488FCE0006B0C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A9B0EF2488FCE0006B0C38;
+			remoteInfo = ZNTextView;
+		};
+		F6A9B1172488FCE2006B0C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A9B0E82488FCE0006B0C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A9B0EF2488FCE0006B0C38;
+			remoteInfo = ZNTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6A9B0F02488FCE0006B0C38 /* ZNTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZNTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A9B0F32488FCE0006B0C38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6A9B0F42488FCE0006B0C38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6A9B0F62488FCE0006B0C38 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F6A9B0F72488FCE0006B0C38 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F6A9B0F92488FCE0006B0C38 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6A9B0FA2488FCE0006B0C38 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6A9B0FD2488FCE0006B0C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6A9B0FF2488FCE1006B0C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A9B1022488FCE1006B0C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6A9B1042488FCE1006B0C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A9B1052488FCE1006B0C38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6A9B10B2488FCE2006B0C38 /* ZNTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZNTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A9B10F2488FCE2006B0C38 /* ZNTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNTextViewTests.m; sourceTree = "<group>"; };
+		F6A9B1112488FCE2006B0C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A9B1162488FCE2006B0C38 /* ZNTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZNTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A9B11A2488FCE2006B0C38 /* ZNTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNTextViewUITests.m; sourceTree = "<group>"; };
+		F6A9B11C2488FCE2006B0C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A9B0ED2488FCE0006B0C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A9B1082488FCE2006B0C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A9B1132488FCE2006B0C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6A9B0E72488FCE0006B0C38 = {
+			isa = PBXGroup;
+			children = (
+				F6A9B0F22488FCE0006B0C38 /* ZNTextView */,
+				F6A9B10E2488FCE2006B0C38 /* ZNTextViewTests */,
+				F6A9B1192488FCE2006B0C38 /* ZNTextViewUITests */,
+				F6A9B0F12488FCE0006B0C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A9B0F12488FCE0006B0C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9B0F02488FCE0006B0C38 /* ZNTextView.app */,
+				F6A9B10B2488FCE2006B0C38 /* ZNTextViewTests.xctest */,
+				F6A9B1162488FCE2006B0C38 /* ZNTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A9B0F22488FCE0006B0C38 /* ZNTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9B0F32488FCE0006B0C38 /* AppDelegate.h */,
+				F6A9B0F42488FCE0006B0C38 /* AppDelegate.m */,
+				F6A9B0F62488FCE0006B0C38 /* SceneDelegate.h */,
+				F6A9B0F72488FCE0006B0C38 /* SceneDelegate.m */,
+				F6A9B0F92488FCE0006B0C38 /* ViewController.h */,
+				F6A9B0FA2488FCE0006B0C38 /* ViewController.m */,
+				F6A9B0FC2488FCE0006B0C38 /* Main.storyboard */,
+				F6A9B0FF2488FCE1006B0C38 /* Assets.xcassets */,
+				F6A9B1012488FCE1006B0C38 /* LaunchScreen.storyboard */,
+				F6A9B1042488FCE1006B0C38 /* Info.plist */,
+				F6A9B1052488FCE1006B0C38 /* main.m */,
+			);
+			path = ZNTextView;
+			sourceTree = "<group>";
+		};
+		F6A9B10E2488FCE2006B0C38 /* ZNTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9B10F2488FCE2006B0C38 /* ZNTextViewTests.m */,
+				F6A9B1112488FCE2006B0C38 /* Info.plist */,
+			);
+			path = ZNTextViewTests;
+			sourceTree = "<group>";
+		};
+		F6A9B1192488FCE2006B0C38 /* ZNTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9B11A2488FCE2006B0C38 /* ZNTextViewUITests.m */,
+				F6A9B11C2488FCE2006B0C38 /* Info.plist */,
+			);
+			path = ZNTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A9B0EF2488FCE0006B0C38 /* ZNTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A9B11F2488FCE2006B0C38 /* Build configuration list for PBXNativeTarget "ZNTextView" */;
+			buildPhases = (
+				F6A9B0EC2488FCE0006B0C38 /* Sources */,
+				F6A9B0ED2488FCE0006B0C38 /* Frameworks */,
+				F6A9B0EE2488FCE0006B0C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZNTextView;
+			productName = ZNTextView;
+			productReference = F6A9B0F02488FCE0006B0C38 /* ZNTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6A9B10A2488FCE2006B0C38 /* ZNTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A9B1222488FCE2006B0C38 /* Build configuration list for PBXNativeTarget "ZNTextViewTests" */;
+			buildPhases = (
+				F6A9B1072488FCE2006B0C38 /* Sources */,
+				F6A9B1082488FCE2006B0C38 /* Frameworks */,
+				F6A9B1092488FCE2006B0C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A9B10D2488FCE2006B0C38 /* PBXTargetDependency */,
+			);
+			name = ZNTextViewTests;
+			productName = ZNTextViewTests;
+			productReference = F6A9B10B2488FCE2006B0C38 /* ZNTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6A9B1152488FCE2006B0C38 /* ZNTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A9B1252488FCE2006B0C38 /* Build configuration list for PBXNativeTarget "ZNTextViewUITests" */;
+			buildPhases = (
+				F6A9B1122488FCE2006B0C38 /* Sources */,
+				F6A9B1132488FCE2006B0C38 /* Frameworks */,
+				F6A9B1142488FCE2006B0C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A9B1182488FCE2006B0C38 /* PBXTargetDependency */,
+			);
+			name = ZNTextViewUITests;
+			productName = ZNTextViewUITests;
+			productReference = F6A9B1162488FCE2006B0C38 /* ZNTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A9B0E82488FCE0006B0C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "李煜";
+				TargetAttributes = {
+					F6A9B0EF2488FCE0006B0C38 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F6A9B10A2488FCE2006B0C38 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F6A9B0EF2488FCE0006B0C38;
+					};
+					F6A9B1152488FCE2006B0C38 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F6A9B0EF2488FCE0006B0C38;
+					};
+				};
+			};
+			buildConfigurationList = F6A9B0EB2488FCE0006B0C38 /* Build configuration list for PBXProject "ZNTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A9B0E72488FCE0006B0C38;
+			productRefGroup = F6A9B0F12488FCE0006B0C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A9B0EF2488FCE0006B0C38 /* ZNTextView */,
+				F6A9B10A2488FCE2006B0C38 /* ZNTextViewTests */,
+				F6A9B1152488FCE2006B0C38 /* ZNTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A9B0EE2488FCE0006B0C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A9B1032488FCE1006B0C38 /* LaunchScreen.storyboard in Resources */,
+				F6A9B1002488FCE1006B0C38 /* Assets.xcassets in Resources */,
+				F6A9B0FE2488FCE0006B0C38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A9B1092488FCE2006B0C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A9B1142488FCE2006B0C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A9B0EC2488FCE0006B0C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A9B0FB2488FCE0006B0C38 /* ViewController.m in Sources */,
+				F6A9B0F52488FCE0006B0C38 /* AppDelegate.m in Sources */,
+				F6A9B1062488FCE1006B0C38 /* main.m in Sources */,
+				F6A9B0F82488FCE0006B0C38 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A9B1072488FCE2006B0C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A9B1102488FCE2006B0C38 /* ZNTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A9B1122488FCE2006B0C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A9B11B2488FCE2006B0C38 /* ZNTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6A9B10D2488FCE2006B0C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A9B0EF2488FCE0006B0C38 /* ZNTextView */;
+			targetProxy = F6A9B10C2488FCE2006B0C38 /* PBXContainerItemProxy */;
+		};
+		F6A9B1182488FCE2006B0C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A9B0EF2488FCE0006B0C38 /* ZNTextView */;
+			targetProxy = F6A9B1172488FCE2006B0C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6A9B0FC2488FCE0006B0C38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A9B0FD2488FCE0006B0C38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6A9B1012488FCE1006B0C38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A9B1022488FCE1006B0C38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6A9B11D2488FCE2006B0C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6A9B11E2488FCE2006B0C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A9B1202488FCE2006B0C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZNTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosth.ZNTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A9B1212488FCE2006B0C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZNTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosth.ZNTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6A9B1232488FCE2006B0C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZNTextViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosth.ZNTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZNTextView.app/ZNTextView";
+			};
+			name = Debug;
+		};
+		F6A9B1242488FCE2006B0C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZNTextViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosth.ZNTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZNTextView.app/ZNTextView";
+			};
+			name = Release;
+		};
+		F6A9B1262488FCE2006B0C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZNTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosth.ZNTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZNTextView;
+			};
+			name = Debug;
+		};
+		F6A9B1272488FCE2006B0C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZNTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iosth.ZNTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZNTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A9B0EB2488FCE0006B0C38 /* Build configuration list for PBXProject "ZNTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A9B11D2488FCE2006B0C38 /* Debug */,
+				F6A9B11E2488FCE2006B0C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A9B11F2488FCE2006B0C38 /* Build configuration list for PBXNativeTarget "ZNTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A9B1202488FCE2006B0C38 /* Debug */,
+				F6A9B1212488FCE2006B0C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A9B1222488FCE2006B0C38 /* Build configuration list for PBXNativeTarget "ZNTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A9B1232488FCE2006B0C38 /* Debug */,
+				F6A9B1242488FCE2006B0C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A9B1252488FCE2006B0C38 /* Build configuration list for PBXNativeTarget "ZNTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A9B1262488FCE2006B0C38 /* Debug */,
+				F6A9B1272488FCE2006B0C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A9B0E82488FCE0006B0C38 /* Project object */;
+}
