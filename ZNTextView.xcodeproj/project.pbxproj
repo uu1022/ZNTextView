@@ -16,6 +16,7 @@
 		F6A9B1062488FCE1006B0C38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B1052488FCE1006B0C38 /* main.m */; };
 		F6A9B1102488FCE2006B0C38 /* ZNTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B10F2488FCE2006B0C38 /* ZNTextViewTests.m */; };
 		F6A9B11B2488FCE2006B0C38 /* ZNTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B11A2488FCE2006B0C38 /* ZNTextViewUITests.m */; };
+		F6A9B12B2488FD15006B0C38 /* ZNAutoResizeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A9B12A2488FD15006B0C38 /* ZNAutoResizeTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F6A9B1162488FCE2006B0C38 /* ZNTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZNTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A9B11A2488FCE2006B0C38 /* ZNTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZNTextViewUITests.m; sourceTree = "<group>"; };
 		F6A9B11C2488FCE2006B0C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A9B1292488FD15006B0C38 /* ZNAutoResizeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNAutoResizeTextView.h; sourceTree = "<group>"; };
+		F6A9B12A2488FD15006B0C38 /* ZNAutoResizeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNAutoResizeTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 				F6A9B1012488FCE1006B0C38 /* LaunchScreen.storyboard */,
 				F6A9B1042488FCE1006B0C38 /* Info.plist */,
 				F6A9B1052488FCE1006B0C38 /* main.m */,
+				F6A9B1282488FD15006B0C38 /* ZNAutoResizeTextView */,
 			);
 			path = ZNTextView;
 			sourceTree = "<group>";
@@ -135,6 +139,15 @@
 				F6A9B11C2488FCE2006B0C38 /* Info.plist */,
 			);
 			path = ZNTextViewUITests;
+			sourceTree = "<group>";
+		};
+		F6A9B1282488FD15006B0C38 /* ZNAutoResizeTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9B1292488FD15006B0C38 /* ZNAutoResizeTextView.h */,
+				F6A9B12A2488FD15006B0C38 /* ZNAutoResizeTextView.m */,
+			);
+			path = ZNAutoResizeTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 			files = (
 				F6A9B0FB2488FCE0006B0C38 /* ViewController.m in Sources */,
 				F6A9B0F52488FCE0006B0C38 /* AppDelegate.m in Sources */,
+				F6A9B12B2488FD15006B0C38 /* ZNAutoResizeTextView.m in Sources */,
 				F6A9B1062488FCE1006B0C38 /* main.m in Sources */,
 				F6A9B0F82488FCE0006B0C38 /* SceneDelegate.m in Sources */,
 			);
@@ -440,12 +454,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X57YAVJ4F7;
 				INFOPLIST_FILE = ZNTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iosth.ZNTextView;
+				PRODUCT_BUNDLE_IDENTIFIER = iosth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,12 +472,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X57YAVJ4F7;
 				INFOPLIST_FILE = ZNTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iosth.ZNTextView;
+				PRODUCT_BUNDLE_IDENTIFIER = iosth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
